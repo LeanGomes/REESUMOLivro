@@ -1,0 +1,31 @@
+[
+    {
+      "titulo": "O Triste Fim de Policarpo Quaresma",
+      "autor": "Lima Barreto",
+      "genero": "Romance",
+      "ano_publicacao": 1915,
+      "resumo": "O protagonista, Policarpo Quaresma, é um nacionalista idealista que ama profundamente o Brasil. Ele sonha em transformar o país em uma nação mais autossuficiente e culturalmente rica. No entanto, sua ingenuidade e seus esforços para promover mudanças acabam levando-o ao ridículo e à loucura. O livro satiriza a sociedade brasileira da época, revelando suas contradições e injustiças."
+    },
+    {  
+        "titulo": "Helena",
+        "autor": "Machado de Assis",
+        "genero": "Romance",
+        "ano_publicacao": 1876,
+        "resumo": "A história gira em torno de Estácio, um jovem idealista que se apaixona por Helena, uma mulher misteriosa e enigmática. Helena é acolhida pela família de Estácio, mas sua origem e suas intenções são motivo de especulação. O romance aborda temas como amor, destino, moralidade e as contradições da sociedade carioca do século XIX."    
+    },
+    {
+        "titulo": "A Mão e a Luva",
+        "autor": "Machado de Assis",
+        "genero": "Romance",
+        "ano_publicacao": 1874,
+        "resumo": "O romance acompanha a vida de Guiomar, uma jovem bonita e ambiciosa, e seus pretendentes: Jorge, um jovem idealista, e Luís Alves, um homem mais velho e influente. Guiomar se vê dividida entre esses dois homens e suas aspirações pessoais e sociais. O livro explora as questões do amor, da ambição e das convenções sociais."
+      },
+     {
+        "titulo": "Quincas Borba",
+        "autor": "Machado de Assis",
+        "genero": "Romance",
+        "ano_publicacao": 1891,
+        "resumo": "O enredo gira em torno de Rubião, um humilde professor que herda uma grande fortuna de seu amigo Quincas Borba. Rubião, inicialmente ingênuo e influenciável, acaba se envolvendo em um mundo de intrigas e manipulações. O livro aborda temas como a loucura, a filosofia do Humanitismo (uma sátira ao positivismo) e a decadência da aristocracia brasileira."
+      }
+  ]
+  

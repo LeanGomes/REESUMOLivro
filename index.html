@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RESUMO</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="RESUMO.png" alt=""></div>
+       
+        <ul class="nav-links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#info">Sobre</a></li>
+            <li><a href="#info">Contato</a></li>
+            
+        </ul>
+       
+    </nav><hr>
+    <main>
+        <div class="content">
+            <div class="image">
+                <img src="imgMain.png" alt="Imagem">
+            </div>
+            <div class="text">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido
+                 pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+                
+            </div>
+        </div>
+    </main>
+    <div class="botao"><a href="#form-enviar"><button >my RESUMO</button></div></a>
+
+    <article>
+        <div >
+            <h3>Livros</h3>
+          <div id="carrossel-botao" >
+             <button id="botao-carro"><img onclick="prevCard()" src="arrowLeft.png"></button>
+             <button id="botao-carro"><img onclick="nextCard()" src="arrowRight.png"></button>
+        </div>
+    </div>
+    <div class="carousel">
+        <!-- Container dos cards -->
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <a href="resumoLivro.html?titulo=Quincas%20Borba">
+                <div class="card">
+                    <img src="card1.png" alt="Imagem 1" id="Quincas Borba">
+                    <p class="card-text">Quincas Borba - Machado de Assis</p>
+                </div>
+            </a>
+            <!-- Card 2 -->
+        <a href="resumoLivro.html?titulo=O%20Triste%20Fim%20de%20Policarpo%20Quaresma">
+            <div class="card" >
+                <img src="card2.png" alt="Imagem 2" id="O Triste Fim de Policarpo Quaresma">
+                <p class="card-text">Triste fim de Policarpo Quaresma - Lima Barreto</p>
+            </div>
+        </a>
+        <a href="resumoLivro.html?titulo=Helena">        
+            <div class="card">
+                <img src="card3.png" alt="Imagem 3" id="Helena">
+                <p class="card-text">Helena - Machado de Assis</p>
+            </div>
+        </a>
+        <a href="resumoLivro.html?titulo=A%20M%C3%A3o%20e%20a%20Luva">
+            <div class="card">
+                <img src="card4.png" alt="Imagem 4" id="A Mão e a Luva">
+                <p class="card-text">A Mão e a Luva - Machado de Assis</p>
+            </div>
+        </a>
+        <a href="resumoLivro.html?titulo=O%20Triste%20Fim%20de%20Policarpo%20Quaresma">
+            <div class="card" >
+                <img src="card2.png" alt="Imagem 2" id="O Triste Fim de Policarpo Quaresma">
+                <p class="card-text">Triste fim de Policarpo Quaresma - Lima Barreto</p>
+            </div>
+        </a>
+            <a href="resumoLivro.html?titulo=Quincas%20Borba">
+                <div class="card">
+                    <img src="card1.png" alt="Imagem 1" id="Quincas Borba">
+                    <p class="card-text">Quincas Borba - Machado de Assis</p>
+                </div>
+            </a>
+            <a href="resumoLivro.html?titulo=Helena">        
+                <div class="card">
+                    <img src="card3.png" alt="Imagem 3" id="Helena">
+                    <p class="card-text">Helena - Machado de Assis</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    </article>
+    <section class="section-form">
+        <h1>Envie o seu RESUMO</h1>
+        <form id="form-enviar" class="formulario">
+            <label for="name"></label>
+            <input id="name" type="text" placeholder="Nome Completo"><br>
+            <label for="tituloLivro"></label>
+            <input id="tituloLivro" type="text" placeholder="Titulo do Livro"><br>
+            <label for="autor"></label>
+            <input id="autor" type="text" placeholder="Autor"><br>
+            <label for="email"></label>
+            <input id="email" type="email" placeholder="Email: exemplo@resumo.com"><br>
+            <input type="file" id="fileInput" accept=".pdf,.doc,.docx"><br>
+            <button id="button-enviar" type="submit" onclick="uploadFile()">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+    </section>
+    <section class="section-info" id="info">
+        <h3>Sobre</h3>
+                <p id="texto">Vivamus fermentum tempus pulvinar. Donec pretium eros id enim pulvinar sollicitudin id commodo massa. Sed mollis nisi nisi, 
+                non semper urna accumsan id. Aliquam eu est sit amet sem laoreet tincidunt. Morbi in elit sapien. Phasellus lorem est, 
+                tempus et eros at, consequat venenatis nulla. Fusce eros massa, tempus a sagittis ac, suscipit quis purus. Proin in ultrices tellus,
+                id interdum sapien. Vestibulum convallis lectus eget ex commodo,et pretium sem scelerisque. Sed id elementum enim, vitae pretium lectus. 
+                Etiam eu urna vitae turpis condimentum scelerisque.</p>
+                <p id="texto">Ut ullamcorper vulputate tempor. Vivamus sit amet suscipit nisi. Sed nibh dolor, pellentesque nec auctor quis, 
+                tempor ac sem. Morbi ut tristique erat, ut elementum libero. Integer mollis, orci ut pretium semper, 
+                nisi justo finibus libero, ac tristique dolor justo convallis quam. Etiam eros eros, vestibulum consectetur rutrum eget, 
+                lacinia ac tortor. Aenean mollis elit in nunc mattis, sed porttitor dolor dictum. Nunc feugiat ultricies feugiat. 
+                Vestibulum lobortis ultrices commodo. Nam metus quam, hendrerit quis dignissim at, luctus nec purus. 
+                Fusce malesuada nibh eget nulla luctus, ut hendrerit nisl dapibus. Ut non fringilla dolor. Nam ullamcorper, arcu non dignissim facilisis, 
+                augue nisi imperdiet mauris, ac tempor nibh ex a purus. Vivamus vulputate facilisis maximus.
+                Quisque varius vehicula nulla, mollis luctus purus rutrum ac. Morbi dignissim elit ut nulla cursus condimentum et ut lorem.</p>
+        <h3>Contatos</h3>
+         <ul class="contato-info">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+    </section>
+    <script src="scriptCarrosel.js"></script>
+    <script src="scriptEnviar.js"></script>
+    </body>
+    
+</html>

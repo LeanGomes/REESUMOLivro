@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Italiana&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Italiana', sans-serif;
+    padding: 0;
+    background-image: url(fundo.png);
+}
+
+nav {
+   
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 0;
+    
+}
+
+
+.logo {
+    color: #000000;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 10px;
+    
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff0;
+}
+hr {
+    border: 0;
+    border-top: 2px solid #000000; /* Adiciona uma linha horizontal */
+    margin-top: 8px; /* Remove a margem superior padrão do hr */
+    width: 85%;   
+    margin-right: 38px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.text {
+    flex: 1;
+    padding: 10 20px;
+    margin-left: 30px;
+    
+}
+
+.text h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 60px;
+}
+.text p{
+    text-align: center;
+    font-size: 24px;
+    
+
+}
+.botao{
+    display: flex;
+    justify-content: right;
+    width: 97%;
+    height: 45px;
+    
+}
+div button{
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(100, 117, 62, 1);
+    font-family: 'Italiana', sans-serif;
+    font-size: 30px;
+    margin-right: 50px;
+}
+article{
+    background-color:white;
+    width: 97%;
+    height: 395px;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+}
+article div{
+    display: flex;
+
+}
+h3{
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+#carrossel-botao{
+    margin-left: 1080px;
+}
+#botao-carro{
+    background-color: white;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    height: 20px;
+    width: 60px;
+}
+/* Estilos para o carrossel */
+.carousel {
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa as dimensões do carrossel */
+    width: 100%; /* Largura total do carrossel */
+    position: relative; /* Define o posicionamento relativo para os elementos filhos */
+   
+}
+
+/* Estilos para o container dos cards */
+.cards-container {
+    display: flex; /* Usa o modelo flexível para posicionar os cards horizontalmente */
+    transition: transform 0.5s ease; /* Adiciona uma transição suave para a propriedade de transformação */
+    margin-left: 29px;
+    margin-top: 40px;
+}
+
+/* Estilos para os cards */
+.card {
+    flex: 0 0 auto; /* Define o tamanho flexível dos cards */
+    width: 200px; /* Largura dos cards */
+    margin-right: 20px; /* Espaçamento entre os cards */
+    position: relative; /* Define o posicionamento relativo para o card */
+}
+
+/* Estilos para as imagens dos cards */
+.card img {
+    width: 100%; /* Imagem ocupa 100% da largura do card */
+    height: auto; /* Altura da imagem ajustada automaticamente */
+    border-radius: 5px; /* Adiciona bordas arredondadas às imagens */
+    transition: filter 0.5s ease; /* Adiciona uma transição suave para a propriedade de filtro */
+}
+
+/* Estilos para o texto dos cards */
+.card-text {
+    text-align: center; /* Alinha o texto ao centro */
+    position: absolute; /* Define o posicionamento absoluto para o texto */
+    bottom: 10px; /* Distância do texto em relação à parte inferior do card */
+    left: 10px; /* Distância do texto em relação à parte esquerda do card */
+    color: #fff; /* Cor do texto (branco neste caso) */
+    opacity: 0; /* Define a opacidade inicial do texto como 0 (invisível) */
+    transition: opacity 0.5s ease; /* Adiciona uma transição suave para a propriedade de opacidade */
+    z-index: 1; /* Define uma posição z superior para que o texto fique acima da imagem */
+}
+
+/* Quando o mouse estiver sobre o card, o texto será exibido e a imagem será borrada */
+.card:hover img {
+    filter: blur(5px); /* Aplica um desfoque na imagem */
+}
+
+.card:hover .card-text {
+    opacity: 1; /* Torna o texto visível (opacidade 1) quando o mouse estiver sobre o card */
+}
+section{
+    
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+h1{
+    text-align: justify;
+    margin-left: 60px;
+
+}
+form{
+    padding-top: 20px;
+    padding-left: 50px;
+    
+}
+input{
+    margin: 8px;
+    width: 50%;
+    height: 35px;
+    border: 1px solid  rgba(100, 117, 62, 1);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Italiana', sans-serif;
+    color: black;
+}
+#fileInput{
+    border: none;
+    
+}
+form button{
+    width: 10%;
+    height: 30px;
+    margin-left: 8px;
+    border: none;
+    font-family: 'Italiana', sans-serif;
+    font-size: larger;
+    border-radius: 5px;
+}
+#button-enviar{
+    background-color: rgba(250, 30, 30, 1);
+    color: #fff;
+}
+#texto{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contato-info{
+    text-align: justify;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 200px) {
+    body{
+        background-image: none;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+
+    hr{
+       width: 35%; 
+    }
+    .nav-links li {
+        margin: 10px 0;
+    }
+    .content {
+        flex-direction: column;
+    }
+
+    .image {
+        order: 2; /* Altera a ordem para a imagem aparecer depois do texto */
+        margin-bottom: 20px; /* Adiciona espaço entre a imagem e o texto */
+        
+    }
+    
+}
+    @media screen and (max-width: 768px){
+  .botao{
+    width: auto;
+    height: 40px;
+    justify-content: center;
+  }
+ article div{
+    display: block;
+ }
+ #botao-carro{
+    margin: 0;
+}
+#carrossel-botao{
+    margin-left: 5px;
+}
+}
+
